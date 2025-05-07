@@ -5,9 +5,9 @@ import java.awt.*;
 
 public class ProductsFrame extends JFrame {
 
-    JLabel[] imageLabels;
-    ProductsService service;
-    ProductsController productsController;
+    private JLabel[] imageLabels;
+    private ProductsService service;
+    private ProductsController productsController;
 
     public ProductsFrame() {
         setTitle("Products");

@@ -8,10 +8,10 @@ import java.net.URL;
 
 public class ProductFrame extends JFrame {
 
-    JLabel imageLabel = new JLabel();
-    JLabel titleLabel = new JLabel();
-    JLabel priceLabel = new JLabel();
-    JTextArea descriptionArea = new JTextArea();
+    private JLabel imageLabel = new JLabel();
+    private JLabel titleLabel = new JLabel();
+    private JLabel priceLabel = new JLabel();
+    private JTextArea descriptionArea = new JTextArea();
 
     public ProductFrame(Product product) {
         setTitle(product.title);

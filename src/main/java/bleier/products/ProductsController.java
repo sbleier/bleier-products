@@ -13,7 +13,7 @@ import java.net.URL;
 public class ProductsController {
 
     private ProductsService service;
-    JLabel[] imageLabels;
+    private JLabel[] imageLabels;
 
     public ProductsController(ProductsService service, JLabel[] image) {
         this.service = service;
